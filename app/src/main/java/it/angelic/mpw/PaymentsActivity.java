@@ -110,9 +110,9 @@ public class PaymentsActivity extends DrawerActivity {
         super.onStart();
 
         //ADS
-        AdView mAdView = findViewById(R.id.adViewPayments);
-        AdRequest adRequest = new AdRequest.Builder().build();
-        mAdView.loadAd(adRequest);
+//        AdView mAdView = findViewById(R.id.adViewPayments);
+//        AdRequest adRequest = new AdRequest.Builder().build();
+//        mAdView.loadAd(adRequest);
 
         NavigationView navigationView = findViewById(R.id.navigation_view);
 

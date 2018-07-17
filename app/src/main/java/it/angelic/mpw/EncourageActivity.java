@@ -56,8 +56,8 @@ public class EncourageActivity extends AppCompatActivity {
     protected void onStart() {
         super.onStart();
         //ADS
-        AdView mAdView = findViewById(R.id.adViewEncourage);
-        AdRequest adRequest = new AdRequest.Builder().build();
-        mAdView.loadAd(adRequest);
+//        AdView mAdView = findViewById(R.id.adViewEncourage);
+//        AdRequest adRequest = new AdRequest.Builder().build();
+//        mAdView.loadAd(adRequest);
     }
 }

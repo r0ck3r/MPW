@@ -77,39 +77,39 @@ public class DrawerActivity extends AppCompatActivity implements NavigationView.
         imageViewCurrencyLogoFoot.setImageResource(R.drawable.ic_ethereum_logo);
         backgroundPool.setImageResource(R.drawable.side_nav_bar);
         curLogo.setImageResource(R.mipmap.ic_pool_watcher);
-        switch (mPool) {
-
-            case NOOBPOOL:
-                curLogo.setImageResource(R.mipmap.pool_noob);
-                break;
-            case MAXHASH:
-                curLogo.setImageResource(R.mipmap.ic_maxhash_logo);
-                break;
-            case NEVERMINING:
-                curLogo.setImageResource(R.mipmap.ic_nevermining_logo);
-                break;
-            case TWOMINERS:
-                curLogo.setImageResource(R.mipmap.ic_2miners_logo);
-                break;
-            case KRATOS:
-                curLogo.setImageResource(R.mipmap.ic_kratos_logo);
-                break;
-            case XEMINERS:
-                curLogo.setImageResource(R.mipmap.ic_xeminer_logo);
-                break;
-            case SOYMINERO:
-                curLogo.setImageResource(R.mipmap.ic_soyminero_logo);
-                break;
-            case ANORAK:
-                curLogo.setImageResource(R.mipmap.ic_anorak_pool);
-                break;
-            case GIGANTPOOL:
-                curLogo.setImageResource(R.mipmap.ic_gigantpool_logo);
-                break;
+//        switch (mPool) {
+//
+//            case NOOBPOOL:
+//                curLogo.setImageResource(R.mipmap.pool_noob);
+//                break;
+//            case MAXHASH:
+//                curLogo.setImageResource(R.mipmap.ic_maxhash_logo);
+//                break;
+//            case NEVERMINING:
+//                curLogo.setImageResource(R.mipmap.ic_nevermining_logo);
+//                break;
+//            case TWOMINERS:
+//                curLogo.setImageResource(R.mipmap.ic_2miners_logo);
+//                break;
+//            case KRATOS:
+//                curLogo.setImageResource(R.mipmap.ic_kratos_logo);
+//                break;
+//            case XEMINERS:
+//                curLogo.setImageResource(R.mipmap.ic_xeminer_logo);
+//                break;
+//            case SOYMINERO:
+//                curLogo.setImageResource(R.mipmap.ic_soyminero_logo);
+//                break;
+//            case ANORAK:
+//                curLogo.setImageResource(R.mipmap.ic_anorak_pool);
+//                break;
+//            case GIGANTPOOL:
+//                curLogo.setImageResource(R.mipmap.ic_gigantpool_logo);
+//                break;
             //case MININGPOOLITA:
              //   curLogo.setImageResource(R.mipmap.ic_europool_logo);
               //  break;
-        }
+//        }
         switch (mCur) {
             case ETH:
             case ETC:
@@ -216,11 +216,11 @@ public class DrawerActivity extends AppCompatActivity implements NavigationView.
                 }
                 break;
             }
-            case R.id.nav_support: {
-                Intent opzioni = new Intent(DrawerActivity.this, EncourageActivity.class);
-                startActivity(opzioni);
-                break;
-            }
+//            case R.id.nav_support: {
+//                Intent opzioni = new Intent(DrawerActivity.this, EncourageActivity.class);
+//                startActivity(opzioni);
+//                break;
+//            }
             case R.id.nav_blocks: {
                 Intent bb = new Intent(DrawerActivity.this, BlocksActivity.class);
                 startActivity(bb);

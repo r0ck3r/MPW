@@ -161,9 +161,9 @@ public class MainActivity extends DrawerActivity {
         dispatcher.schedule(myJob);
 
         //ADS
-        AdView mAdView = findViewById(R.id.adView);
-        AdRequest adRequest = new AdRequest.Builder().build();
-        mAdView.loadAd(adRequest);
+//        AdView mAdView = findViewById(R.id.adView);
+//        AdRequest adRequest = new AdRequest.Builder().build();
+//        mAdView.loadAd(adRequest);
 
         super.onStart();
         NavigationView navigationView = findViewById(R.id.navigation_view);

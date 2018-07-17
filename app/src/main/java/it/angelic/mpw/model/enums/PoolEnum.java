@@ -7,86 +7,89 @@ import java.util.ArrayList;
  */
 
 public enum PoolEnum {
-    NOOBPOOL("Noob Pool", "noobpool.com", false, new ArrayList<CurrencyEnum>() {{
-        add(CurrencyEnum.ETH);
-        add(CurrencyEnum.ETC);
-    }}, false),
-    CRYPTOPOOL("CryptoPool Network", "cryptopool.network", true, new ArrayList<CurrencyEnum>() {{
-        add(CurrencyEnum.ELLA);
-        add(CurrencyEnum.ETH);
-        add(CurrencyEnum.ETC);
-        add(CurrencyEnum.MUSIC);
-        add(CurrencyEnum.PIRL);
-        add(CurrencyEnum.UBQ);
-    }}, false),
-    /*ELLAISMDEV("Ella Dev Pool", "ellaism.org", false, new ArrayList<CurrencyEnum>() {{
-        add(CurrencyEnum.ELLA);
-    }}, true, "pool"),*/
-    MINERPOOL("Minerpool", "minerpool.net", false, new ArrayList<CurrencyEnum>() {{
-        add(CurrencyEnum.ELLA);
-        add(CurrencyEnum.ETZ);
-        add(CurrencyEnum.EXP);
-        add(CurrencyEnum.MUSIC);
-        add(CurrencyEnum.PIRL);
-        add(CurrencyEnum.UBIQ);
-        add(CurrencyEnum.VIC);
-        add(CurrencyEnum.WHALE);
-    }}, false),
-    KRATOS("Kratospool","kratos.biz",false, new ArrayList<CurrencyEnum>() {{
-        add(CurrencyEnum.ETH);
-    }}, true),
-    MAXHASH("MaxHash", "maxhash.org", true, new ArrayList<CurrencyEnum>() {{
-        add(CurrencyEnum.ETH);
-        add(CurrencyEnum.ETC);
-        add(CurrencyEnum.EXP);
-        add(CurrencyEnum.MC);
-        add(CurrencyEnum.UBIQ);
-    }}, false, "pool"),
-    NEVERMINING( "Nevermining",   "nevermining.org", false, new ArrayList<CurrencyEnum>() {{
-        add(CurrencyEnum.ELLA);
-        add(CurrencyEnum.EXP);
-        add(CurrencyEnum.MUSIC);
-        add(CurrencyEnum.PIRL);
-        add(CurrencyEnum.UBIQ);
-    }}, false),
-    SOYMINERO("SoyMinero", "soyminero.es", false, new ArrayList<CurrencyEnum>() {{
-        add(CurrencyEnum.ETH);
-        add(CurrencyEnum.ELLA);
-    }}, false),
-    TWOMINERS("2miners", "2miners.com", true, new ArrayList<CurrencyEnum>() {{
-        add(CurrencyEnum.ETH);
-        add(CurrencyEnum.ETC);
-        add(CurrencyEnum.EXP);
-        add(CurrencyEnum.MUSIC);
-        add(CurrencyEnum.ETP);
-        add(CurrencyEnum.PIRL);
-        add(CurrencyEnum.ELLA);
-    }}, false),
-    XEMINERS("xeminer", "xeminer.net", true, new ArrayList<CurrencyEnum>() {{
-        add(CurrencyEnum.ETH);
-    }}, false),
-    DOLOMITIPOOL("Dolomiti Pool", "pool.athesis.com",false, new ArrayList<CurrencyEnum>() {{
-        add(CurrencyEnum.ETH);
-    }}, true),
-    /*MININGPOOLITA("Europool", "europool.me",true, new ArrayList<CurrencyEnum>() {{
-        add(CurrencyEnum.ETC);
-    }}, false),*/
-    ANORAK("Anorak.Tech", "anorak.tech",true, new ArrayList<CurrencyEnum>() {{
-        add(CurrencyEnum.ETH);
-        add(CurrencyEnum.ETC);
-        add(CurrencyEnum.UBIQ);
-        add(CurrencyEnum.PIRL);
-    }}, false),
-    GIGANTPOOL("Gigantpool", "gigantpool.com",false, new ArrayList<CurrencyEnum>() {{
-        add(CurrencyEnum.ETH);
-        add(CurrencyEnum.XMR);
-    }}, false),
-    CHILEMINERS("Chileminers", "chileminers.cl",false, new ArrayList<CurrencyEnum>() {{
-        add(CurrencyEnum.ETH);
-        add(CurrencyEnum.ETC);
-        add(CurrencyEnum.CLO);
-        add(CurrencyEnum.AKROMA);
-    }}, false);
+    ETCPOOL("EtcPool", "etcpool.skm-digital.ru", false, new ArrayList<CurrencyEnum>() {{add(CurrencyEnum.ETC); }}, true),
+    MUSICPOOL("EtcPool", "musicpool.skm-digital.ru", false, new ArrayList<CurrencyEnum>() {{add(CurrencyEnum.MUSIC); }}, true);
+//
+//    NOOBPOOL("Noob Pool", "noobpool.com", false, new ArrayList<CurrencyEnum>() {{
+//        add(CurrencyEnum.ETH);
+//        add(CurrencyEnum.ETC);
+//    }}, false),
+//    CRYPTOPOOL("CryptoPool Network", "cryptopool.network", true, new ArrayList<CurrencyEnum>() {{
+//        add(CurrencyEnum.ELLA);
+//        add(CurrencyEnum.ETH);
+//        add(CurrencyEnum.ETC);
+//        add(CurrencyEnum.MUSIC);
+//        add(CurrencyEnum.PIRL);
+//        add(CurrencyEnum.UBQ);
+//    }}, false),
+//    /*ELLAISMDEV("Ella Dev Pool", "ellaism.org", false, new ArrayList<CurrencyEnum>() {{
+//        add(CurrencyEnum.ELLA);
+//    }}, true, "pool"),*/
+//    MINERPOOL("Minerpool", "minerpool.net", false, new ArrayList<CurrencyEnum>() {{
+//        add(CurrencyEnum.ELLA);
+//        add(CurrencyEnum.ETZ);
+//        add(CurrencyEnum.EXP);
+//        add(CurrencyEnum.MUSIC);
+//        add(CurrencyEnum.PIRL);
+//        add(CurrencyEnum.UBIQ);
+//        add(CurrencyEnum.VIC);
+//        add(CurrencyEnum.WHALE);
+//    }}, false),
+//    KRATOS("Kratospool","kratos.biz",false, new ArrayList<CurrencyEnum>() {{
+//        add(CurrencyEnum.ETH);
+//    }}, true),
+//    MAXHASH("MaxHash", "maxhash.org", true, new ArrayList<CurrencyEnum>() {{
+//        add(CurrencyEnum.ETH);
+//        add(CurrencyEnum.ETC);
+//        add(CurrencyEnum.EXP);
+//        add(CurrencyEnum.MC);
+//        add(CurrencyEnum.UBIQ);
+//    }}, false, "pool"),
+//    NEVERMINING( "Nevermining",   "nevermining.org", false, new ArrayList<CurrencyEnum>() {{
+//        add(CurrencyEnum.ELLA);
+//        add(CurrencyEnum.EXP);
+//        add(CurrencyEnum.MUSIC);
+//        add(CurrencyEnum.PIRL);
+//        add(CurrencyEnum.UBIQ);
+//    }}, false),
+//    SOYMINERO("SoyMinero", "soyminero.es", false, new ArrayList<CurrencyEnum>() {{
+//        add(CurrencyEnum.ETH);
+//        add(CurrencyEnum.ELLA);
+//    }}, false),
+//    TWOMINERS("2miners", "2miners.com", true, new ArrayList<CurrencyEnum>() {{
+//        add(CurrencyEnum.ETH);
+//        add(CurrencyEnum.ETC);
+//        add(CurrencyEnum.EXP);
+//        add(CurrencyEnum.MUSIC);
+//        add(CurrencyEnum.ETP);
+//        add(CurrencyEnum.PIRL);
+//        add(CurrencyEnum.ELLA);
+//    }}, false),
+//    XEMINERS("xeminer", "xeminer.net", true, new ArrayList<CurrencyEnum>() {{
+//        add(CurrencyEnum.ETH);
+//    }}, false),
+//    DOLOMITIPOOL("Dolomiti Pool", "pool.athesis.com",false, new ArrayList<CurrencyEnum>() {{
+//        add(CurrencyEnum.ETH);
+//    }}, true),
+//    /*MININGPOOLITA("Europool", "europool.me",true, new ArrayList<CurrencyEnum>() {{
+//        add(CurrencyEnum.ETC);
+//    }}, false),*/
+//    ANORAK("Anorak.Tech", "anorak.tech",true, new ArrayList<CurrencyEnum>() {{
+//        add(CurrencyEnum.ETH);
+//        add(CurrencyEnum.ETC);
+//        add(CurrencyEnum.UBIQ);
+//        add(CurrencyEnum.PIRL);
+//    }}, false),
+//    GIGANTPOOL("Gigantpool", "gigantpool.com",false, new ArrayList<CurrencyEnum>() {{
+//        add(CurrencyEnum.ETH);
+//        add(CurrencyEnum.XMR);
+//    }}, false),
+//    CHILEMINERS("Chileminers", "chileminers.cl",false, new ArrayList<CurrencyEnum>() {{
+//        add(CurrencyEnum.ETH);
+//        add(CurrencyEnum.ETC);
+//        add(CurrencyEnum.CLO);
+//        add(CurrencyEnum.AKROMA);
+//    }}, false);
     /*DIGIPOOL("Digipools", "digipools.org",false, new ArrayList<CurrencyEnum>() {{
         add(CurrencyEnum.ETC);
         add(CurrencyEnum.EXP);

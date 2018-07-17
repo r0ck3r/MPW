@@ -9,7 +9,7 @@
     <application
         android:allowBackup="true"
         android:fullBackupContent="@xml/mpw_backup_rules"
-        android:icon="@mipmap/ic_pool_watcher"
+        android:icon="@mipmap/ic_launcher"
         android:label="@string/app_name"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">

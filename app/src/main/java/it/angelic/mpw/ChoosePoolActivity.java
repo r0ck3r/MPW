@@ -89,7 +89,7 @@ public class ChoosePoolActivity extends AppCompatActivity {
         }
 
         //admob
-        MobileAds.initialize(this, "ca-app-pub-2379213694485575~9889984422");
+//        MobileAds.initialize(this, "ca-app-pub-2379213694485575~9889984422");
 
         ArrayAdapter poolSpinnerAdapter = new ArrayAdapter<>(this, android.R.layout.simple_spinner_item, PoolEnum.values());
         poolSpinnerAdapter.setDropDownViewResource(android.R.layout.simple_spinner_dropdown_item);
@@ -162,9 +162,9 @@ public class ChoosePoolActivity extends AppCompatActivity {
         final SharedPreferences prefs = PreferenceManager.getDefaultSharedPreferences(ChoosePoolActivity.this);
         restoreLastSettings(prefs);
         //ADS
-        AdView mAdView = findViewById(R.id.adView);
-        AdRequest adRequest = new AdRequest.Builder().build();
-        mAdView.loadAd(adRequest);
+//        AdView mAdView = findViewById(R.id.adView);
+//        AdRequest adRequest = new AdRequest.Builder().build();
+//        mAdView.loadAd(adRequest);
     }
 
     /**

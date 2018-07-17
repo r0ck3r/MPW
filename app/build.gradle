@@ -5,7 +5,7 @@ android {
     buildToolsVersion "27.0.3"
     flavorDimensions "default"
     defaultConfig {
-        applicationId "it.angelic.mpw"
+        applicationId "ru.skmdigital.etcpool"
         vectorDrawables.useSupportLibrary = true
         minSdkVersion 14
         targetSdkVersion 27
