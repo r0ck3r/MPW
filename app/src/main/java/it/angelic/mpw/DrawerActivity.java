@@ -76,7 +76,7 @@ public class DrawerActivity extends AppCompatActivity implements NavigationView.
         }
         imageViewCurrencyLogoFoot.setImageResource(R.drawable.ic_ethereum_logo);
         backgroundPool.setImageResource(R.drawable.side_nav_bar);
-        curLogo.setImageResource(R.mipmap.ic_pool_watcher);
+        curLogo.setImageResource(R.mipmap.ic_launcher);
 //        switch (mPool) {
 //
 //            case NOOBPOOL:
